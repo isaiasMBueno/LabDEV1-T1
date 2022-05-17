@@ -125,7 +125,7 @@ O projeto foi desenvolvido pelos alunos Isaías M. Bueno (CT3006395) e Pedro H. 
     </td>
     <td align="center">
       <a href="https://www.linkedin.com/in/pedro-guzzo-426439207/">
-        <img src="https://media-exp1.licdn.com/dms/image/D4E35AQEW-Sm_wsrasQ/profile-framedphoto-shrink_800_800/0/1623860914006?e=1652274000&v=beta&t=Q8DFALo-vbBd6ig5oH7wXjJK1i6PWbCu_pojAvJuu74" target="_blank" width="100px;" alt="Foto do Pedro Guzzo"/><br>
+        <img src="https://media-exp1.licdn.com/dms/image/D4E35AQEW-Sm_wsrasQ/profile-framedphoto-shrink_800_800/0/1623860914006?e=1653397200&v=beta&t=quuGu7XZ4rqXr_vWZBySst6DjvECgUtQjgO1O5j27oc" target="_blank" width="100px;" alt="Foto do Pedro Guzzo"/><br>
         <sub>
           <b>Pedro Guzzo</b>
         </sub>
