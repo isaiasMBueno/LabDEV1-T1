@@ -21,14 +21,14 @@
 					"raw": ""
 				},
 				"url": {
-					"raw": "http://localhost:5039/Agendamento/0",
+					"raw": "http://localhost:5039/api/agendamentos/0",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "5039",
 					"path": [
-						"Agendamento",
+						"api/agendamentos",
 						"0"
 					]
 				}
@@ -51,14 +51,14 @@
 					"raw": "{\r\n    \"Origem\": 0\r\n}"
 				},
 				"url": {
-					"raw": "http://localhost:5039/Agendamento",
+					"raw": "http://localhost:5039/api/agendamentos",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "5039",
 					"path": [
-						"Agendamento"
+						"api/agendamentos"
 					]
 				}
 			},
@@ -70,14 +70,14 @@
 				"method": "PATCH",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:5039/Agendamento/preparar",
+					"raw": "http://localhost:5039/api/agendamentos/preparar",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "5039",
 					"path": [
-						"Agendamento",
+						"api/agendamentos",
 						"preparar"
 					]
 				}
@@ -90,14 +90,14 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:5039/Agendamento/finalizapedido",
+					"raw": "http://localhost:5039/api/agendamentos/finalizapedido",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "5039",
 					"path": [
-						"Agendamento",
+						"api/agendamentos",
 						"finalizapedido"
 					]
 				}
@@ -110,14 +110,14 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:5039/Agendamento/entrega",
+					"raw": "http://localhost:5039/api/agendamentos/entrega",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "5039",
 					"path": [
-						"Agendamento",
+						"api/agendamentos",
 						"entrega"
 					]
 				}
@@ -130,14 +130,14 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:5039/Agendamento/1",
+					"raw": "http://localhost:5039/api/agendamentos/1",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "5039",
 					"path": [
-						"Agendamento",
+						"api/agendamentos",
 						"1"
 					]
 				}
@@ -150,14 +150,14 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:5039/Agendamento/listpedidos/1",
+					"raw": "http://localhost:5039/api/agendamentos/listpedidos/1",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "5039",
 					"path": [
-						"Agendamento",
+						"api/agendamentos",
 						"listpedidos",
 						"1"
 					]
