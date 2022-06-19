@@ -21,14 +21,14 @@
 					"raw": ""
 				},
 				"url": {
-					"raw": "http://localhost:5039/api/agendamentos/0",
+					"raw": "http://localhost:5039/Agendamento/0",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "5039",
 					"path": [
-						"api/agendamentos",
+						"Agendamento",
 						"0"
 					]
 				}
@@ -51,14 +51,14 @@
 					"raw": "{\r\n    \"Origem\": 0\r\n}"
 				},
 				"url": {
-					"raw": "http://localhost:5039/api/agendamentos",
+					"raw": "http://localhost:5039/Agendamento",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "5039",
 					"path": [
-						"api/agendamentos"
+						"Agendamento"
 					]
 				}
 			},
@@ -70,55 +70,15 @@
 				"method": "PATCH",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:5039/api/agendamentos/preparar",
+					"raw": "http://localhost:5039/Agendamento/preparar",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "5039",
 					"path": [
-						"api/agendamentos",
+						"Agendamento",
 						"preparar"
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "FinalizarPedido(Cozinha)",
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": {
-					"raw": "http://localhost:5039/api/agendamentos/finalizapedido",
-					"protocol": "http",
-					"host": [
-						"localhost"
-					],
-					"port": "5039",
-					"path": [
-						"api/agendamentos",
-						"finalizapedido"
-					]
-				}
-			},
-			"response": []
-		},		
-		{
-			"name": "EntregarPedido(Delivery)",
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": {
-					"raw": "http://localhost:5039/api/agendamentos/entrega",
-					"protocol": "http",
-					"host": [
-						"localhost"
-					],
-					"port": "5039",
-					"path": [
-						"api/agendamentos",
-						"entrega"
 					]
 				}
 			},
@@ -130,15 +90,15 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:5039/api/agendamentos/1",
+					"raw": "http://localhost:5039/Agendamento/gc",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "5039",
 					"path": [
-						"api/agendamentos",
-						"1"
+						"Agendamento",
+						"gc"
 					]
 				}
 			},
@@ -150,14 +110,14 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:5039/api/agendamentos/listpedidos/1",
+					"raw": "http://localhost:5039/Agendamento/listpedidos/1",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "5039",
 					"path": [
-						"api/agendamentos",
+						"Agendamento",
 						"listpedidos",
 						"1"
 					]

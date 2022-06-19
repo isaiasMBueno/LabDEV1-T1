@@ -208,25 +208,28 @@
     ]
   },
   "packageFolders": {
-    "/home/isaias/.nuget/packages/": {}
+    "C:\\Users\\Informa\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/isaias/Documentos/faculdade/LabDev/Trabalho1v4/Trabalho1.csproj",
+      "projectUniqueName": "C:\\Users\\Informa\\Downloads\\Trabalho1v3\\Trabalho1.csproj",
       "projectName": "Trabalho1",
-      "projectPath": "/home/isaias/Documentos/faculdade/LabDev/Trabalho1v4/Trabalho1.csproj",
-      "packagesPath": "/home/isaias/.nuget/packages/",
-      "outputPath": "/home/isaias/Documentos/faculdade/LabDev/Trabalho1v4/obj/",
+      "projectPath": "C:\\Users\\Informa\\Downloads\\Trabalho1v3\\Trabalho1.csproj",
+      "packagesPath": "C:\\Users\\Informa\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Informa\\Downloads\\Trabalho1v3\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/isaias/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Informa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://pkgs.dev.azure.com/informatfs/bd3c01b9-1b03-45f9-90fa-648c20a14cb9/_packaging/informa-packages/nuget/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
@@ -267,7 +270,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

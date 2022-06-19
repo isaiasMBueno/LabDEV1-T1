@@ -1,13 +1,14 @@
-namespace Trabalho1;
-using System;
+namespace Trabalho1.Enums;
 using System.Runtime.Serialization;
 
-public enum eStatusPedido
+public enum eOrigemPedido
 {
     [EnumMember(Value = "Balcão")]
-    aguardando = 0,
+    balcao = 0,
     [EnumMember(Value = "Delivery")]
-    fazendo = 1,
+    delivery = 1,
     [EnumMember(Value = "DriveThru")]
-    pronto = 2
+    drivethru = 2,
+
+    qualquer = 100
 }
