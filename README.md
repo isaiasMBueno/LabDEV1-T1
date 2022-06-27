@@ -53,16 +53,16 @@ Nos arquivos do projeto, está incluso o arquivo <TEndPoints-trabalho> .
 Basta importá-lo para utilizar as rotas já configuradas no Postman e fazer os testes.
 ```
 
-📌Origens possíveis
--Balcão
--Delivery
--DriveThru
+📌Origens possíveis:
+* Balcão
+* Delivery
+* DriveThru
 
-📌Status possíveis
--Aguardando
--Fazendo
--Pronto
--Entregue
+📌Status possíveis:
+* Aguardando
+* Fazendo
+* Pronto
+* Entregue
 
 
 ## 📫 Contribuindo para o projeto
