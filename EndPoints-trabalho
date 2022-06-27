@@ -1,0 +1,203 @@
+{
+	"info": {
+		"_postman_id": "42c9f81c-1ae1-4055-adc9-1887dc7d0500",
+		"name": "Trabalho",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20704452"
+	},
+	"item": [
+		{
+			"name": "AlterarPedido(Cliente)",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:5039/api/pedidos/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5039",
+					"path": [
+						"api",
+						"pedidos",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "RealizaPedido(Cliente)",
+			"protocolProfileBehavior": {
+				"strictSSL": false
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:5039/api/pedidos/BALCÃO",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5039",
+					"path": [
+						"api",
+						"pedidos",
+						"BALCÃO"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "FazerPedido(Cozinha)",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5039/api/pedidos/preparar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5039",
+					"path": [
+						"api",
+						"pedidos",
+						"preparar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "RetirarPedido(Cliente)",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5039/api/pedidos/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5039",
+					"path": [
+						"api",
+						"pedidos",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAll",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5039/api/pedidos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5039",
+					"path": [
+						"api",
+						"pedidos"
+					],
+					"query": [
+						{
+							"key": "origem",
+							"value": null,
+							"disabled": true
+						},
+						{
+							"key": "status",
+							"value": null,
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "FinalizarPedido(Cozinha)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5039/api/pedidos/finalizar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5039",
+					"path": [
+						"api",
+						"pedidos",
+						"finalizar"
+					],
+					"query": [
+						{
+							"key": "origem",
+							"value": null,
+							"disabled": true
+						},
+						{
+							"key": "status",
+							"value": null,
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EntregarPedido(Entregador)-Apenas Delivery",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5039/api/pedidos/entrega",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5039",
+					"path": [
+						"api",
+						"pedidos",
+						"entrega"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

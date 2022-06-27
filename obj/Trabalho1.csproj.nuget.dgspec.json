@@ -1,29 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Informa\\Downloads\\Trabalho1v3\\Trabalho1.csproj": {}
+    "/home/isaias/Documentos/faculdade/LabDEV1-T1/Trabalho1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Informa\\Downloads\\Trabalho1v3\\Trabalho1.csproj": {
+    "/home/isaias/Documentos/faculdade/LabDEV1-T1/Trabalho1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Informa\\Downloads\\Trabalho1v3\\Trabalho1.csproj",
+        "projectUniqueName": "/home/isaias/Documentos/faculdade/LabDEV1-T1/Trabalho1.csproj",
         "projectName": "Trabalho1",
-        "projectPath": "C:\\Users\\Informa\\Downloads\\Trabalho1v3\\Trabalho1.csproj",
-        "packagesPath": "C:\\Users\\Informa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Informa\\Downloads\\Trabalho1v3\\obj\\",
+        "projectPath": "/home/isaias/Documentos/faculdade/LabDEV1-T1/Trabalho1.csproj",
+        "packagesPath": "/home/isaias/.nuget/packages/",
+        "outputPath": "/home/isaias/Documentos/faculdade/LabDEV1-T1/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Informa\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/isaias/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/informatfs/bd3c01b9-1b03-45f9-90fa-648c20a14cb9/_packaging/informa-packages/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -64,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
         }
       }
     }
