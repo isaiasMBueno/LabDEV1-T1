@@ -55,6 +55,7 @@ Basta importá-lo para utilizar as rotas já configuradas no Postman e fazer os 
 
 ## ⚠️⚠️IMPORTANTE!!⚠️⚠️
 ```
+O arquivo "EndPoints-trabalho" contem os endpoints prontos a serem importados pelo Postman para realização de testes.
 ```
 📌Origens possíveis
 <table border="1">
