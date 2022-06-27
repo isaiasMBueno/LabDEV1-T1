@@ -20,9 +20,9 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [x] Criação dos endpoints
 - [x] Tratamento de erros
 - [x] Tratamento de Requisições
-- [ ] Padronização de URLs
-- [ ] Implementação de Testes Unitários
-- [ ] Revisão do código e boas práticas
+- [x] Padronização de URLs
+- [x] Divisão de camadas
+- [x] Revisão do código e boas práticas
 
 ## 💻 Pré-requisitos
 
@@ -47,55 +47,22 @@ Com a pasta do projeto aberta, abra um novo terminal e digite o comando: "dotnet
 Abra o projeto pelo VisualStudio e execute em modo Debug (F5) ou sem Debug(Ctrl + F5)
 ```
 
-## ☢️Observação☢️
+## ⚠️⚠️☢️Observação☢️⚠️⚠️
 ```
-Nos arquivos do projeto, está incluso o arquivo <Trabalhov3.postman_collection>.
+Nos arquivos do projeto, está incluso o arquivo <TEndPoints-trabalho> .
 Basta importá-lo para utilizar as rotas já configuradas no Postman e fazer os testes.
 ```
 
-## ⚠️⚠️IMPORTANTE!!⚠️⚠️
-```
-Durante os testes da API, os valores retornados são inteiros, correspondentes a uma posição do Enum.
-```
-📌Origem do Pedido
-<table border="1">
-    <tr>
-        <td>Nº</td>
-        <td>Origem</td>
-    </tr>
-    <tr>
-        <td>0</td>
-        <td>Balcão</td>
-    </tr>
-    <tr>
-        <td>1</td>
-        <td>Delivery</td>
-    </tr>
-    <tr>
-        <td>2</td>
-        <td>DriveThru</td>
-    </tr>
-</table>
+📌Origens possíveis:
+* Balcão
+* Delivery
+* DriveThru
 
-📌Status do Pedido
-<table border="1">
-    <tr>
-        <td>Nº</td>
-        <td>Status</td>
-    </tr>
-    <tr>
-        <td>0</td>
-        <td>Aguardando</td>
-    </tr>
-    <tr>
-        <td>1</td>
-        <td>Fazendo</td>
-    </tr>
-    <tr>
-        <td>2</td>
-        <td>Pronto</td>
-    </tr>
-</table>
+📌Status possíveis:
+* Aguardando
+* Fazendo
+* Pronto
+* Entregue
 
 
 ## 📫 Contribuindo para o projeto
@@ -117,7 +84,7 @@ O projeto foi desenvolvido pelos alunos Isaías M. Bueno (CT3006395) e Pedro H. 
   <tr>
     <td align="center">
       <a href="https://www.linkedin.com/in/isaías-bueno-80a0ba157">
-        <img src="https://media-exp1.licdn.com/dms/image/C4D03AQHUINi-Lf1_tg/profile-displayphoto-shrink_200_200/0/1585184845908?e=1652918400&v=beta&t=GLaQDXE09vJbt2hr3afBD-6BLd0u3IYf7jh2VQVQhvg" target="_blank" width="100px;" alt="Foto do Isaías Bueno no GitHub"/><br>
+        <img src="https://media-exp1.licdn.com/dms/image/C4D03AQHUINi-Lf1_tg/profile-displayphoto-shrink_800_800/0/1585184845908?e=1661990400&v=beta&t=lZAnoQMzVT9u-kXC4-3iuE096m5H95cAJ19eCVsWuqc" target="_blank" width="100px;" alt="Foto do Isaías Bueno no GitHub"/><br>
         <sub>
           <b>Isaías Bueno</b>
         </sub>
@@ -125,7 +92,7 @@ O projeto foi desenvolvido pelos alunos Isaías M. Bueno (CT3006395) e Pedro H. 
     </td>
     <td align="center">
       <a href="https://www.linkedin.com/in/pedro-guzzo-426439207/">
-        <img src="https://media-exp1.licdn.com/dms/image/D4E35AQEW-Sm_wsrasQ/profile-framedphoto-shrink_800_800/0/1623860914006?e=1653397200&v=beta&t=quuGu7XZ4rqXr_vWZBySst6DjvECgUtQjgO1O5j27oc" target="_blank" width="100px;" alt="Foto do Pedro Guzzo"/><br>
+        <img src="https://media-exp1.licdn.com/dms/image/D4E35AQEW-Sm_wsrasQ/profile-framedphoto-shrink_800_800/0/1623860914006?e=1656954000&v=beta&t=bBeTU0-10-wuy3Sk5xjks97Ocf_d9zOismqRmufLLjI" target="_blank" width="100px;" alt="Foto do Pedro Guzzo"/><br>
         <sub>
           <b>Pedro Guzzo</b>
         </sub>
