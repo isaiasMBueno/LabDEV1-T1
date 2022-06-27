@@ -47,59 +47,22 @@ Com a pasta do projeto aberta, abra um novo terminal e digite o comando: "dotnet
 Abra o projeto pelo VisualStudio e execute em modo Debug (F5) ou sem Debug(Ctrl + F5)
 ```
 
-## ☢️Observação☢️
+## ⚠️⚠️☢️Observação☢️⚠️⚠️
 ```
-Nos arquivos do projeto, está incluso o arquivo <Trabalhov3.postman_collection>.
+Nos arquivos do projeto, está incluso o arquivo <TEndPoints-trabalho> .
 Basta importá-lo para utilizar as rotas já configuradas no Postman e fazer os testes.
 ```
 
-## ⚠️⚠️IMPORTANTE!!⚠️⚠️
-```
-O arquivo "EndPoints-trabalho" contem os endpoints prontos a serem importados pelo Postman para realização de testes.
-```
 📌Origens possíveis
-<table border="1">
-    <tr>
-        <td> </td>
-        <td>Origem</td>
-    </tr>
-    <tr>
-        <td>0</td>
-        <td>Balcão</td>
-    </tr>
-    <tr>
-        <td>1</td>
-        <td>Delivery</td>
-    </tr>
-    <tr>
-        <td>2</td>
-        <td>DriveThru</td>
-    </tr>
-</table>
+-Balcão
+-Delivery
+-DriveThru
 
 📌Status possíveis
-<table border="1">
-    <tr>
-        <td> </td>
-        <td>Status</td>
-    </tr>
-    <tr>
-        <td>0</td>
-        <td>Aguardando</td>
-    </tr>
-    <tr>
-        <td>1</td>
-        <td>Fazendo</td>
-    </tr>
-    <tr>
-        <td>2</td>
-        <td>Pronto</td>
-    </tr>
-        <tr>
-        <td>3</td>
-        <td>Entregue</td>
-    </tr>
-</table>
+-Aguardando
+-Fazendo
+-Pronto
+-Entregue
 
 
 ## 📫 Contribuindo para o projeto
