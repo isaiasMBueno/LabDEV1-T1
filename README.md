@@ -49,7 +49,7 @@ Abra o projeto pelo VisualStudio e execute em modo Debug (F5) ou sem Debug(Ctrl 
 
 ## ⚠️⚠️☢️Observação☢️⚠️⚠️
 ```
-Nos arquivos do projeto, está incluso o arquivo <TEndPoints-trabalho> .
+Nos arquivos do projeto, está incluso o arquivo <EndPoints-trabalho> .
 Basta importá-lo para utilizar as rotas já configuradas no Postman e fazer os testes.
 ```
 
