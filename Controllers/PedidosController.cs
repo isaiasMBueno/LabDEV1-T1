@@ -24,7 +24,7 @@ public class PedidosController : ControllerBase
         {
             return Ok(_pedidosService.GetAllPedidos(status, origem));
         }
-        catch (FileNotFoundException)
+        catch (NullReferenceException)
         {
             return StatusCode(404, "Nenhum pedido encontrado");
         }
@@ -76,7 +76,7 @@ public class PedidosController : ControllerBase
 
             return Ok(_pedidosService.AlterarPedido(senha));
         }
-        catch (FileNotFoundException)
+        catch (NullReferenceException)
         {
             return StatusCode(404, "Pedido não encontrado para alteraçao");
         }
@@ -95,7 +95,7 @@ public class PedidosController : ControllerBase
         {
             return Ok(_pedidosService.PrepararPedido());
         }
-        catch (FileNotFoundException)
+        catch (NullReferenceException)
         {
             return StatusCode(404, "Nenhum pedido com status AGUARDANDO localizado.");
         }
@@ -120,7 +120,7 @@ public class PedidosController : ControllerBase
         {
             return Ok(_pedidosService.FinalizarPedido());
         }
-        catch (FileNotFoundException)
+        catch (NullReferenceException)
         {
             return StatusCode(404, "Nenhum pedido com status PREPARANDO localizado");
         }
@@ -139,7 +139,7 @@ public class PedidosController : ControllerBase
         {
             return Ok(_pedidosService.EntregarPedido());
         }
-        catch (FileNotFoundException)
+        catch (NullReferenceException)
         {
             return StatusCode(404, "Nenhum pedido com status PRONTO e origem DELIVERY encontrado.");
         }
@@ -167,7 +167,7 @@ public class PedidosController : ControllerBase
             }
             return Ok(_pedidosService.RetirarPedido(senha));
         }
-        catch (FileNotFoundException)
+        catch (NullReferenceException)
         {
             return StatusCode(404, "Nenhum pedido com Status PRONTO disponivel para retirada");
         }

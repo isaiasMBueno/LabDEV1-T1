@@ -46,7 +46,7 @@ namespace Trabalho1.Services
 
             if (listAllPedidos == null || !listAllPedidos.Any())
             {
-                throw new FileNotFoundException();
+                throw new NullReferenceException();
             }
             return listAllPedidos;
         }
@@ -74,7 +74,7 @@ namespace Trabalho1.Services
             var pedido = _listPedidosAguardando.Where(x => x.Senha == senha).FirstOrDefault();
             if (pedido == null)
             {
-                throw new FileNotFoundException();
+                throw new NullReferenceException();
             }
 
             _listPedidosAguardando.Remove(pedido); //Remove e adiciona novamente, movendo o pedido para o final da fila
@@ -86,7 +86,7 @@ namespace Trabalho1.Services
         {
             if (!_listPedidosAguardando.Where(a => a.Status == eStatusPedido.aguardando).Any())
             {
-                throw new FileNotFoundException();
+                throw new NullReferenceException();
             }
 
             if (_listPedidosFazendo != null && _listPedidosFazendo.Count() == 3)
@@ -182,7 +182,7 @@ namespace Trabalho1.Services
 
             if (pedidoFinalizar == null)
             {
-                throw new FileNotFoundException();
+                throw new NullReferenceException();
             }
 
             _listPedidosFazendo.Remove(pedidoFinalizar);
@@ -199,7 +199,7 @@ namespace Trabalho1.Services
 
             if (!listPedidosEntregar.Any())   //Não há pedidos prontos para serem entregues pelo delivery
             {
-                throw new FileNotFoundException();
+                throw new NullReferenceException();
             }
             if (listPedidosEntregar.Count() == 3) //Somente se acumular 3 delivery é para fazer a entrega
             {
@@ -221,7 +221,7 @@ namespace Trabalho1.Services
 
             if (pedido == null)
             {
-                throw new FileNotFoundException();
+                throw new NullReferenceException();
             }
 
             _listPedidosPronto.Remove(pedido);
